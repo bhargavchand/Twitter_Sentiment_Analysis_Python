@@ -2,7 +2,7 @@ from user import User
 from database import Database
 from twitter_utils import get_request_token, get_oauth_verifier, get_access_token
 
-Database.initialise(user='postgres', password='Open4me!', host='localhost', database='Main', port = 5433)
+Database.initialise(user='postgres', password='', host='localhost', database='Main', port = 5433)
 
 user_email = input("Enter your e-mail address: ")
 
